@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    grid-column: 1/span 4;
+    grid-row: 1;
+}
+
+aside{
+    background: green;
+    color: white;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+main{
+    background: red;
+    color: white;
+    grid-column: 2/span 3;
+    grid-row: 2;
+}
+
+footer{
+    background: blueviolet;
+    color: white;
+    grid-column: 1/span 4;
+    grid-row: 3;
+}
+
+.gridContainer{
+    display: grid;
+    height: 100vh;
+    gap: 1px;
+    grid-template-columns: repeat(4/1fr);
+    grid-template-rows: 10% 85% 5%;
+}
