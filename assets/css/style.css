@@ -36,6 +36,6 @@ footer{
     display: grid;
     height: 100vh;
     gap: 1px;
-    grid-template-columns: repeat(4/1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 10% 85% 5%;
 }
